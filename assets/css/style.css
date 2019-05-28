@@ -839,7 +839,7 @@ MEDIA QUERIES START HERE
     .most_back3{
         background-color: #ffffff;
         width: 90%;
-        height: 670px;
+        height: 155%;
         position: absolute;
         left: 4.5%;
         top: 150px;
@@ -910,8 +910,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 25%;
-        left: 6%;
+        top: 30%;
+        left: 18%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -925,8 +925,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 25%;
-        left: 52%;
+        top: 65%;
+        left: 18%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -940,8 +940,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 55%;
-        left: 6%;
+        top: 100%;
+        left: 18%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -955,8 +955,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 55%;
-        left: 52%;
+        top: 135%;
+        left: 18%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -1022,6 +1022,23 @@ MEDIA QUERIES START HERE
         position: absolute;
         left: 0;
         bottom: -60px;
+        border-width: 5px;
+        border-top-color: #4aaaa5;
+        padding: 0px;
+        text-align: center;
+        background-color: #666666;
+        width: 100%;
+        height: 40px;
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        border-top-color: #2dafe2;
+        border-top-style: solid;
+        border-top-width: 3px;
+    }
+    .copy2{
+        position: absolute;
+        left: 0;
+        bottom: -85%;
         border-width: 5px;
         border-top-color: #4aaaa5;
         padding: 0px;
