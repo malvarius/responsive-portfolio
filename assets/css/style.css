@@ -1,0 +1,369 @@
+/* Anything with _contact or 2 regards only the contact html page */
+/* Anything with _portfolio or ending in 3 regards only the portfolio html page */
+
+
+body{
+    width: 960px;
+background-image: url('../../memphis-mini-dark.png');
+overflow-x: hidden;
+min-height: 100%;
+}
+
+/* most backs are the white aread between main content and bacground */
+.most_back{
+    background-color: #ffffff;
+    width: 60%;
+    height: 960px;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.most_back2{
+    background-color: #ffffff;
+    width: 60%;
+    height: 700px;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.most_back3{
+    background-color: #ffffff;
+    width: 60%;
+    height: 960px;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.imglink1 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 300px;
+    left: 450px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+}
+.imglink2 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 600px;
+    left: 450px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px; 
+}
+.imglink3 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 300px;
+    left: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px; 
+}
+.imglink4 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 600px;
+    left: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px; 
+}
+.links{
+    text-decoration: none;
+}
+
+/* me header is the name Eric Malvar with a blue background */
+.me_header{
+    color:white;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 10%;
+    padding: 25px;
+    position: absolute;
+    left: 375px;
+    top: 63px;  
+}
+/* about me's are the title with the underline border on each html */
+.about_me{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:450px;
+    top: 180px; 
+    text-align: start;
+    color: #4aaaa5;
+    height: 90px;
+    width: 52.5%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+.about_me_contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:450px;
+    top: 180px; 
+    text-align: start;
+    color: #4aaaa5;
+    height: 90px;
+    width: 52.5%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+.about_me_portfolio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:450px;
+    top: 180px; 
+    text-align: start;
+    color: #4aaaa5;
+    height: 90px;
+    width: 52.5%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+/* .name .email .message and #submitbutton are all the inputs and buttons for the contact page */
+.name{
+    width:300px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+}
+.email {
+        width:300px;
+        position: absolute;
+        left: 450px;
+        top: 375px;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    
+}
+.message {
+    width:300px;
+    position: absolute;
+    left: 450px;
+    top: 450px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+}
+#submit_button  {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 450px;
+    top: 700px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+/* basic and message input are details for the text boxes in the contact me page */
+.basic_input {
+    width: 1000px;
+    height: 25px;
+}
+
+.message_input{
+    width: 1000px;
+    height: 200px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.about_me_text{
+    position: relative;
+    left:0%;
+}
+.about_me_text2{
+    position: relative;
+    left:0%;
+}
+.about_me_text3{
+    position: relative;
+    left:0;
+}
+.index{
+    height:15px ;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    right: 550px;
+    z-index: 12;
+    position: absolute;
+    top: 110px;
+    text-decoration: none;
+    padding: 8px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #666666
+}
+.portfolio{
+    height:15px ;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    top: 30px;
+    right: 462.5px;
+    z-index: 12;
+    position: absolute;
+    top: 110px;
+    text-decoration: none;
+    padding: 8px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #666666
+}
+.contact{
+    height:15px ;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    top: 30px;
+    right: 362.5px;
+    z-index: 12;
+    position: absolute;
+    top: 110px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+.headback{
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 80px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 10;
+    border-color: #ffffff;
+    border-bottom-color: #4aaaa5;
+    border-style: solid;
+    border-bottom-width: 3px;
+    
+}
+
+.abt{
+    float: right;
+    position: absolute;
+    right:7%;
+    top:260px;
+    width: 50%;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    line-height: 70px;
+}
+
+.abt_text{
+    position: relative;
+    right: 8%;
+    width: 77.5%;
+}
+.abt_text2{
+    position: absolute;
+    left: 450px;
+    top: 550px;
+    bottom: 22%;
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    line-height: 70px;
+}
+
+.pic{
+    border-style: solid;
+    border-color: #2dafe2;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 450px;
+    top: 300px;  
+}
+.about{
+position: absolute;
+right: 80px;
+top:300px;
+}
+
+.copyright{
+    position: absolute;
+    left: 0;
+    bottom: -400px;
+    border-width: 5px;
+    border-top-color: #4aaaa5;
+    padding: 0%;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border-top-color: #2dafe2;
+    border-top-style: solid;
+    border-top-width: 8px;
+}
