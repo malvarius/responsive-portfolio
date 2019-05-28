@@ -372,9 +372,24 @@ top:300px;
 
 
 HERE HERE HERE HERE HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
+MEDIA QUERIES START HERE
 
 
 */
+
+/* 768px MEDIA QUERY HERE */
 @media only screen and (max-width: 768px) {
     body{
         width: 960px;
@@ -691,5 +706,333 @@ HERE HERE HERE HERE HERE
         border-top-color: #2dafe2;
         border-top-style: solid;
         border-top-width: 8px;
+    }
+  }
+  /* 640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  640px MEDIA QUERY HERE 
+  */
+@media only screen and (max-width: 640px) {
+    body{
+        width: 960px;
+    background-image: url('../../memphis-mini-dark.png');
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+    }
+    .headback{
+
+        width: 100%;
+        background-color: #ffffff;
+        padding: 40px;
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: 10;
+        border-color: #ffffff;
+        border-bottom-color: #4aaaa5;
+        border-style: solid;
+        border-bottom-width: 3px;
+        
+    }
+    .me_header{
+        color:white;
+        background-color: #4aaaa5;
+        border-color: #4aaaa5;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 2px;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        width: 30%;
+        padding: 0%;
+        position: absolute;
+        left: 25%;
+        top: 52%;  
+    }
+        .about_me{
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            position: absolute;
+            left:10%;
+            top: 12%; 
+            text-align: start;
+            color: #4aaaa5;
+            height: 90px;
+            width: 80%;
+            border-bottom: #2dafe2;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+    }
+    .about_me_portfolio{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        position: absolute;
+        left:10%;
+        top: 140px; 
+        text-align: start;
+        color: #4aaaa5;
+        height: 90px;
+        width: 80%;
+        border-bottom: #2dafe2;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+}
+.about_me_contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:10%;
+    top: 140px; 
+    text-align: start;
+    color: #4aaaa5;
+    height: 90px;
+    width: 80%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+    .pic{
+        border-style: solid;
+        border-color: #2dafe2;
+        border-width: 5px;
+        border-radius: 10px;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 35%;
+        top: 25%;  
+    }
+    .most_back{
+        background-color: #ffffff;
+        width: 90%;
+        height: 700px;
+        position: absolute;
+        left: 4.5%;
+        top: 14%;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .most_back2{
+        background-color: #ffffff;
+        width: 90%;
+        height: 630px;
+        position: absolute;
+        left: 4.5%;
+        top: 150px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .most_back3{
+        background-color: #ffffff;
+        width: 90%;
+        height: 670px;
+        position: absolute;
+        left: 4.5%;
+        top: 150px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .abt_text{
+        position: absolute;
+        left: -60%;
+        width: 150%;
+        top: 45%;
+        line-height: 25px;
+    }
+    .abt_text2{
+        position: absolute;
+        left: 12.5%;
+        top: 72.5%;
+        bottom: 22%;
+        width: 77.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4aaaa5;
+        line-height: 25px;
+    }
+    .index{
+        height:10px ;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        right: 61%;
+        z-index: 12;
+        top: 1%;
+        text-decoration: none;
+        padding: 8px;
+        border-right-style: solid;
+        border-right-width: 3px;
+        border-right-color: #666666
+    }
+    .portfolio{
+        height:15px ;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        top: 1%;
+        right: 45%;
+        z-index: 12;
+        position: absolute;
+        text-decoration: none;
+        padding: 8px;
+        border-right-style: solid;
+        border-right-width: 3px;
+        border-right-color: #666666
+    }
+    .contact{
+        height:15px ;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        top: 1%;
+        right: 25%;
+        z-index: 12;
+        position: absolute;
+        text-decoration: none;
+        padding: 8px;
+    }
+    .imglink1 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 25%;
+        left: 6%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .imglink2 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 25%;
+        left: 52%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .imglink3 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 55%;
+        left: 6%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .imglink4 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 55%;
+        left: 52%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .name{
+        position: absolute;
+        left: 8%;
+        top: 30%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    }
+    .email {
+        position: absolute;
+        left: 8%;
+        top: 40%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        
+    }
+    .message {
+        position: absolute;
+        left: 8%;
+        top: 50%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    }
+    #submit_button  {
+        height: 30px;
+        width: 20%;
+        position: absolute;
+        left: 40%;
+        top: 87.5%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #4aaaa5;
+    }
+    
+    /* basic and message input are details for the text boxes in the contact me page */
+    .basic_input {
+        width: 135%;
+        height: 25px;
+    }
+    
+    .message_input{
+        width: 135%;
+        height: 250px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .copyright{
+        position: absolute;
+        left: 0;
+        bottom: -60px;
+        border-width: 5px;
+        border-top-color: #4aaaa5;
+        padding: 0px;
+        text-align: center;
+        background-color: #666666;
+        width: 100%;
+        height: 40px;
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        border-top-color: #2dafe2;
+        border-top-style: solid;
+        border-top-width: 3px;
     }
   }
