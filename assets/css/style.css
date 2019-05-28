@@ -376,6 +376,13 @@ HERE HERE HERE HERE HERE
 
 */
 @media only screen and (max-width: 768px) {
+    body{
+        width: 960px;
+    background-image: url('../../memphis-mini-dark.png');
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+    }
     .headback{
 
         width: 100%;
@@ -414,7 +421,7 @@ HERE HERE HERE HERE HERE
             font-size: 25px;
             position: absolute;
             left:10%;
-            top: 180px; 
+            top: 140px; 
             text-align: start;
             color: #4aaaa5;
             height: 90px;
@@ -423,6 +430,34 @@ HERE HERE HERE HERE HERE
             border-bottom-width: 3px;
             border-bottom-style: solid;
     }
+    .about_me_portfolio{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        position: absolute;
+        left:10%;
+        top: 140px; 
+        text-align: start;
+        color: #4aaaa5;
+        height: 90px;
+        width: 80%;
+        border-bottom: #2dafe2;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+}
+.about_me_contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:10%;
+    top: 140px; 
+    text-align: start;
+    color: #4aaaa5;
+    height: 90px;
+    width: 80%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
     .pic{
         border-style: solid;
         border-color: #2dafe2;
@@ -436,11 +471,35 @@ HERE HERE HERE HERE HERE
     }
     .most_back{
         background-color: #ffffff;
-        width: 90%;
-        height: 700px;
+        width: 95%;
+        height: 720px;
         position: absolute;
-        left: 5%;
-        top: 200px;
+        left: 2%;
+        top: 150px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .most_back2{
+        background-color: #ffffff;
+        width: 95%;
+        height: 720px;
+        position: absolute;
+        left: 2%;
+        top: 150px;
+        border-color: #ffffff;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .most_back3{
+        background-color: #ffffff;
+        width: 95%;
+        height: 720px;
+        position: absolute;
+        left: 2%;
+        top: 150px;
         border-color: #ffffff;
         border-width: 3px;
         border-style: solid;
@@ -456,7 +515,7 @@ HERE HERE HERE HERE HERE
     .abt_text2{
         position: absolute;
         left: 12.5%;
-        top: 70%;
+        top: 67%;
         bottom: 22%;
         width: 77.5%;
         font-family: Arial, Helvetica, sans-serif;
@@ -468,10 +527,9 @@ HERE HERE HERE HERE HERE
         position: absolute;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        right: 550px;
+        right: 40%;
         z-index: 12;
-        position: absolute;
-        top: 110px;
+        top: 6%;
         text-decoration: none;
         padding: 8px;
         border-right-style: solid;
@@ -483,11 +541,10 @@ HERE HERE HERE HERE HERE
         position: absolute;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        top: 30px;
-        right: 462.5px;
+        top: 6%;
+        right: 29%;
         z-index: 12;
         position: absolute;
-        top: 110px;
         text-decoration: none;
         padding: 8px;
         border-right-style: solid;
@@ -499,13 +556,124 @@ HERE HERE HERE HERE HERE
         position: absolute;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        top: 30px;
-        right: 362.5px;
+        top: 6%;
+        right: 15%;
         z-index: 12;
         position: absolute;
-        top: 110px;
         text-decoration: none;
         padding: 8px;
+    }
+    .imglink1 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 25%;
+        left: 6%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .imglink2 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 25%;
+        left: 52%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .imglink3 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 55%;
+        left: 6%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .imglink4 {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        top: 55%;
+        left: 52%;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 4px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 24px; 
+    }
+    .name{
+        position: absolute;
+        left: 8%;
+        top: 25%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    }
+    .email {
+        position: absolute;
+        left: 8%;
+        top: 33%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+        
+    }
+    .message {
+        position: absolute;
+        left: 8%;
+        top: 41%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    }
+    #submit_button  {
+        height: 50px;
+        width: 20%;
+        position: absolute;
+        left: 40%;
+        top: 73.5%;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #4aaaa5;
+    }
+    
+    /* basic and message input are details for the text boxes in the contact me page */
+    .basic_input {
+        width: 600px;
+        height: 25px;
+    }
+    
+    .message_input{
+        width: 600px;
+        height: 250px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
     }
     .copyright{
         position: absolute;
