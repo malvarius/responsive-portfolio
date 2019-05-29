@@ -392,7 +392,7 @@ MEDIA QUERIES START HERE
 /* 768px MEDIA QUERY HERE */
 @media only screen and (max-width: 768px) {
     body{
-        width: 960px;
+        width: 768px;
     background-image: url('../../memphis-mini-dark.png');
     overflow-x: hidden;
     overflow-y: scroll;
@@ -718,7 +718,7 @@ MEDIA QUERIES START HERE
   640px MEDIA QUERY HERE 
   640px MEDIA QUERY HERE 
   */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 670px) {
     body{
         width: 960px;
     background-image: url('../../memphis-mini-dark.png');
@@ -764,7 +764,7 @@ MEDIA QUERIES START HERE
             font-size: 25px;
             position: absolute;
             left:10%;
-            top: 12%; 
+            top: 18%; 
             text-align: start;
             color: #4aaaa5;
             height: 90px;
@@ -778,7 +778,7 @@ MEDIA QUERIES START HERE
         font-size: 25px;
         position: absolute;
         left:10%;
-        top: 140px; 
+        top: 18%; 
         text-align: start;
         color: #4aaaa5;
         height: 90px;
@@ -792,7 +792,7 @@ MEDIA QUERIES START HERE
     font-size: 25px;
     position: absolute;
     left:10%;
-    top: 140px; 
+    top: 18%; 
     text-align: start;
     color: #4aaaa5;
     height: 90px;
@@ -810,7 +810,7 @@ MEDIA QUERIES START HERE
         width: 150px;
         position: absolute;
         left: 35%;
-        top: 25%;  
+        top: 40%;  
     }
     .most_back{
         background-color: #ffffff;
@@ -818,7 +818,7 @@ MEDIA QUERIES START HERE
         height: 700px;
         position: absolute;
         left: 4.5%;
-        top: 14%;
+        top: 22%;
         border-color: #ffffff;
         border-width: 3px;
         border-style: solid;
@@ -830,7 +830,7 @@ MEDIA QUERIES START HERE
         height: 630px;
         position: absolute;
         left: 4.5%;
-        top: 150px;
+        top: 22%;
         border-color: #ffffff;
         border-width: 3px;
         border-style: solid;
@@ -839,10 +839,10 @@ MEDIA QUERIES START HERE
     .most_back3{
         background-color: #ffffff;
         width: 90%;
-        height: 155%;
+        height: 255%;
         position: absolute;
         left: 4.5%;
-        top: 150px;
+        top: 22%;
         border-color: #ffffff;
         border-width: 3px;
         border-style: solid;
@@ -858,7 +858,7 @@ MEDIA QUERIES START HERE
     .abt_text2{
         position: absolute;
         left: 12.5%;
-        top: 72.5%;
+        top: 110%;
         bottom: 22%;
         width: 77.5%;
         font-family: Arial, Helvetica, sans-serif;
@@ -880,12 +880,12 @@ MEDIA QUERIES START HERE
         border-right-color: #666666
     }
     .portfolio{
-        height:15px ;
+        height:10px ;
         position: absolute;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         top: 1%;
-        right: 45%;
+        right: 48%;
         z-index: 12;
         position: absolute;
         text-decoration: none;
@@ -900,7 +900,7 @@ MEDIA QUERIES START HERE
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         top: 1%;
-        right: 25%;
+        right: 32%;
         z-index: 12;
         position: absolute;
         text-decoration: none;
@@ -910,8 +910,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 30%;
-        left: 18%;
+        top: 40%;
+        left: 25%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -925,8 +925,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 65%;
-        left: 18%;
+        top: 100%;
+        left: 25%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -940,8 +940,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 100%;
-        left: 18%;
+        top: 160%;
+        left: 25%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -955,8 +955,8 @@ MEDIA QUERIES START HERE
         position: absolute;
         width: 300px;
         height: 250px;
-        top: 135%;
-        left: 18%;
+        top: 220%;
+        left: 25%;
         font-family: 'Roboto', sans-serif;
         color: #4aaaa5;
         border-style: solid;
@@ -1021,7 +1021,7 @@ MEDIA QUERIES START HERE
     .copyright{
         position: absolute;
         left: 0;
-        bottom: -60px;
+        bottom: -80%;
         border-width: 5px;
         border-top-color: #4aaaa5;
         padding: 0px;
@@ -1038,7 +1038,7 @@ MEDIA QUERIES START HERE
     .copy2{
         position: absolute;
         left: 0;
-        bottom: -85%;
+        bottom: -200%;
         border-width: 5px;
         border-top-color: #4aaaa5;
         padding: 0px;
